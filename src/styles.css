@@ -1,4 +1,14 @@
-body {
+html {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+body{
   margin: 0px;
-  width: 1440px;
+  background-color: #fff;
+  /* overflow: hidden; */
+}
+body::-webkit-scrollbar {
+  display: none;
 }
