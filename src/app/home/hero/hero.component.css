@@ -1,0 +1,298 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background-color: black;
+}
+
+.hero .navbar {
+  width: 1440px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .navbar p.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  cursor: pointer;
+  margin: 18px 88px 18px 40px;
+}
+
+.hero .navbar .menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero .navbar .menu a {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1px;
+  cursor: pointer
+}
+
+.hero .navbar .button {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero .navbar .button .button {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: black;
+  margin: 16px 24px 16px 0px;
+  cursor: pointer
+}
+
+.hero .body-content {
+  display: flex;
+  padding: 0px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  width: 1360px;
+  height: 878px;
+}
+
+.hero .body-content .top-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.hero .body-content .top-content .left-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
+
+.hero .body-content .top-content .left-content .content {
+  display: flex;
+  height: 598px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero .body-content .top-content .left-content .content .title-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.hero .body-content .top-content .left-content .content .title-description label.title {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80px;
+  width: 504px;
+}
+
+.hero .body-content .top-content .left-content .content .title-description .description {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 492px;
+}
+
+.hero .body-content .top-content .left-content .content .category {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero .body-content .top-content .left-content .content .category label {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.hero .body-content .top-content .left-content .content .category .line {
+  width: 1px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.hero .body-content .top-content .left-content .image {
+  display: flex;
+  height: 598px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .body-content .top-content .left-content .image img {
+  width: 359px;
+  height: 598px;
+}
+
+.hero .body-content .top-content .right-content {
+  display: flex;
+  height: 598px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero .body-content .top-content .right-content .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer
+}
+
+.hero .body-content .top-content .right-content .content .image {
+  display: flex;
+  width: 130px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero .body-content .top-content .right-content .content .image img {
+  width: 130px;
+  height: 134px;
+}
+
+.hero .body-content .top-content .right-content .content .inside-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  width: 259px;
+  height: 120px;
+}
+
+.hero .body-content .top-content .right-content .content .inside-content .property {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero .body-content .top-content .right-content .content .inside-content .property a {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.hero .body-content .top-content .right-content .content .inside-content .property .line {
+  width: 1px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.hero .body-content .top-content .right-content .content .inside-content p {
+  overflow: hidden;
+  color: #FFF;
+  text-overflow: ellipsis;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  display: -webkit-box;
+  width: 259px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0px;
+}
+
+.hero .body-content .bottom-content {
+  display: flex;
+  width: 1360px;
+  padding: 40px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.hero .body-content .bottom-content .content {
+  display: flex;
+  width: 316px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.hero .body-content .bottom-content .content .inside-content {
+  display: flex;
+  width: 316px;
+  flex-direction: column;
+}
+
+.hero .body-content .bottom-content .content .inside-content .property {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero .body-content .bottom-content .content .inside-content .property a {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.hero .body-content .bottom-content .content .inside-content .property .line {
+  width: 1px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.hero .body-content .bottom-content .content .inside-content p {
+  overflow: hidden;
+  color: #FFF;
+  text-overflow: ellipsis;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+  margin: 15px 0px;
+  cursor: pointer;
+}

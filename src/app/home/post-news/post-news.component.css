@@ -1,0 +1,128 @@
+.post-news {
+  width: 1360px;
+  display: flex;
+  padding: 40px 40px 80px 40px;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.post-news .space-universe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.post-news .space-universe .title {
+  display: flex;
+  align-items: flex-start;
+  width: 432px;
+}
+
+.post-news .space-universe .title p.title {
+  color: #000;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0px;
+}
+
+.post-news .space-universe .title p.all {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0px;
+  width: 60px;
+  height: 20px;
+}
+
+.post-news .space-universe .image-title {
+  display: flex;
+  width: 432px;
+  height: 392px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-news .space-universe .image-title img {
+  width: 432px;
+  height: 392px;
+}
+
+.post-news .space-universe .content {
+  display: flex;
+  width: 428px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.post-news .space-universe .content div.title p {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  display: -webkit-box;
+  width: 432px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.post-news .space-universe .content .line {
+  width: 432px;
+  height: 1px;
+  background: #EDEDED;
+}
+
+.post-news .space-universe .content .inside-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  cursor: pointer;
+}
+
+.post-news .space-universe .content .inside-content .image {
+  display: flex;
+  width: 104px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-news .space-universe .content .inside-content .image img {
+  display: flex;
+  width: 104px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-news .space-universe .content .inside-content label {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  flex: 1 0 0;
+  cursor: pointer;
+}
